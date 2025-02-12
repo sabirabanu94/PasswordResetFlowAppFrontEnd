@@ -42,7 +42,7 @@ const PasswordReset = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-green-100">
       <div className="w-full max-w-md bg-white p-6 rounded shadow-md">
         <h1 className="text-2xl font-bold text-center mb-4">Password Reset</h1>
 
@@ -58,7 +58,7 @@ const PasswordReset = () => {
           />
           <button
             onClick={handleGenerateResetLink}
-            className="w-full mt-2 bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700"
+            className="w-full mt-2 bg-blue-600 text-white py-2 rounded-md hover:bg-pink-700"
           >
             Generate Reset Link
           </button>
